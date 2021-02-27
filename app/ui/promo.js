@@ -14,7 +14,7 @@ class Promo extends Component {
 
   createElement() {
     return html`
-      <send-promo
+      <send-promo style="display:none"
         class="w-full flex-row items-center content-center justify-center bg-white text-grey-80 px-4 py-3 flex border-b border-grey-banner leading-normal dark:bg-grey-90 dark:text-grey-20 dark:border-grey-80"
       >
         <div class="flex items-center mx-auto">

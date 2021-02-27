@@ -2,12 +2,12 @@ const html = require('choo/html');
 const assets = require('../common/assets');
 const initScript = require('./initScript');
 
-module.exports = function(state, body = '') {
+module.exports = function (state, body = '') {
   return html`
     <!DOCTYPE html>
     <html lang="${state.locale}">
       <head>
-        <title>${state.title}</title>
+        <title>K-One Send</title>
         <base href="/" />
         <meta name="robots" content="${state.robots},noarchive" />
         <meta name="google" content="nositelinkssearchbox" />

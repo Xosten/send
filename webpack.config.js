@@ -204,6 +204,7 @@ const web = {
     before:
       process.env.NODE_ENV === 'development' && require('./server/bin/dev'),
     compress: true,
+    public: 'send.atlas.computer',
     hot: false,
     host: '0.0.0.0',
     proxy: {
